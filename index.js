@@ -48,4 +48,13 @@ grandTotal(
     rocky.coupon
 )
 
-console.log `things are not going great`
+
+function addDozen(x) {
+
+    console.log(x + 10)
+  
+    return x + 12;
+  
+  }
+  
+  const order = addDozen(12)
